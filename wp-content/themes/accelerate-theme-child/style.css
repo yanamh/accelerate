@@ -1,0 +1,137 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Yana Mironov
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d; 
+}
+
+#masthead {
+     text-transform: uppercase;
+}
+
+#masthead li {
+    display: inline;
+    padding: 1em;
+
+}
+#masthead li a:hover, .current-menu-item a {
+    font-weight: bold;
+}
+#masthead li a:active {
+    font-weight: bold;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d ;
+}
+
+.blog-post {
+    width:  50%;
+}
+.blog-post h4 {
+    font-size:  16px;
+    font-family:  'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+}
+.blog-post h2 {
+    font-size:  24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.blog-post .read-more-link {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+/*Case Studies*/
+
+aside.case-study-sidebar {
+    float: left;
+    max-width: 31%;       
+}
+.case-study-images {
+    float: right;
+    margin: 20px 0 10px 0;  
+    max-width: 69%; 
+    
+}
+
+h2 {
+    font-weight:600; 
+}
+h5 { 
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 5px;
+}
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom:  25px;    
+}
+h4 {
+    font-size:  17px;
+    
+}
+/*Featured Work*/
+.homepage-featured-work {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 10%;
+}
+.individual-featured-work {
+    display: inline-block;
+    max-width: 31%;
+    margin-right: 3%;   
+}
+.individual-featured-work:nth-child(3n) {
+    margin-right: 0;
+}
+.featured-title {
+    text-align:  center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.individual-featured-work h3 {
+    text-align:  center;
+    font-weight: 600;
+    margin-top:  20px;
+    font-size: large;
+}
+/*Archive Case Studies*/
+img.attachment-full {
+    float:  right;
+    margin-bottom: 5%;
+   
+}
+.case-study-sidebar {
+    float: left;
+    clear: both;
+    max-width: 35%; 
+    padding-top: 3%;
+    
+}

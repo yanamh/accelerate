@@ -486,6 +486,7 @@ h1 {
 
 #masthead a {
 	color:white;
+   
 }
 
 #masthead h1 {
@@ -498,7 +499,7 @@ h1 {
 #masthead nav {
     float: right;
 }
-
+   
 #masthead nav ul {
 	list-style-type:none;
 }
@@ -1038,6 +1039,8 @@ input::-webkit-input-placeholder {
 }
 
 /* WORK PAGE */
+
+
 .projects-list {
 	margin-bottom: 105px;
 }
