@@ -39,5 +39,18 @@
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+
+    register_post_type( 'services',
+        array (
+            'labels' => array(
+              'name'=> _( 'Services' ),
+              'singular_name' => _( 'Service' ) 
+              ),
+              'public'=> TRUE,
+              'has_archive' => FALSE,        
+              )
+          );
 }
+
+//Hook this custom posty type function itno the theme
 add_action( 'init', 'create_custom_post_types' );

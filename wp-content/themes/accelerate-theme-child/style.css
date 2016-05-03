@@ -135,3 +135,47 @@ img.attachment-full {
     padding-top: 3%;
     
 }
+
+/*Contact Us Page*/
+.narrow-content {
+    width: 75%;
+    margin:  0 auto;
+}
+#ninja_forms_field_1_div_wrap {
+    float:  left;
+    width:  48%;  
+}
+
+#ninja_forms_field_2_div_wrap {
+   float:  right;   
+   width:  48%;
+   
+}
+#ninja_forms_field_4 {
+    float: right;
+    background-color: #45ac9d; 
+    color: #ffffff;
+    width: 27%;
+    line-height: 35px;
+    font-weight: bold;
+}
+#ninja_forms_field_1_label, #ninja_forms_field_2_label, #ninja_forms_field_3_label {
+    font-size: 14px; 
+    font-weight: 700;
+}
+
+/*social Menu Icons*/
+.social-media-menu {
+    list-style: none;
+   
+}
+
+#menu-social-media-nav li {
+    display: inline;
+    padding:  3px;
+}
+
+/*Footer Menu*/
+.footer-name {
+    color: #45ac9d;
+}
