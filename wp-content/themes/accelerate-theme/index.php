@@ -29,7 +29,7 @@ get_header(); ?>
 					<div class="entry-wrap">
 						<header class="entry-header">
 							<div class="entry-meta">
-								<time class="entry-time" datetime="2014-09-29T04:33:51+00:00" itemprop="datePublished" title="Monday, September 29, 2014, 4:33 am"><?php the_date();?></time>
+								<time class="entry-time"><?php the_date();?></time>
 							</div>
 							<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						</header>
@@ -39,8 +39,8 @@ get_header(); ?>
 						<footer class="entry-footer">
 							<div class="entry-meta">
 								<span class="entry-terms author">Written by <a href=""><?php the_author(); ?></a></span>
-								<span class="entry-terms category">Posted in <a href="">Books</a></span>
-								<span class="entry-terms commets"><a href="">2 Comments</a></span>
+								<span class="entry-terms category">Posted in <?php the_category(', '); ?><</span>
+								<span class="entry-terms commets"><?php comments_number( 'No comments yet!', '1 comment', '% comments' ); ?></span>
 							</div>
 						</footer>
 					</div>
