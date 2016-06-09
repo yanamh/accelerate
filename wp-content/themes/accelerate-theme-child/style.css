@@ -21,15 +21,12 @@
 #masthead {
     background: none repeat scroll 0 0 #45ac9d; 
 }
-
 #masthead {
      text-transform: uppercase;
 }
-
 #masthead li {
     display: inline;
     padding: 1em;
-
 }
 #masthead li a:hover, .current-menu-item a {
     font-weight: bold;
@@ -37,7 +34,6 @@
 #masthead li a:active {
     font-weight: bold;
 }
-
 .home-button {
     background: none repeat scroll 0 0 #45ac9d ;
     color:  white;
@@ -45,6 +41,9 @@
     width: 200px;
     margin:  0 auto;
     padding: 10px 30px;
+}
+.recent-posts {
+    padding-bottom: 30%;
 }
 /*"From the blog" section on front page*/
 .blog-post {
@@ -68,14 +67,12 @@
     font-family: 'Montserrat';
     font-weight: bold;
     color: #45ac9d;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 /*Twitter feed section on front page*/
 .twitter-feed {
     width:  48%;
     float:  right;
-    
 }
 .twitter-feed h4 {
     font-size:  16px;
@@ -115,7 +112,6 @@
     text-transform: uppercase;
 }
 /*Blog Page*/
-
 .textwidget {
     margin-bottom:  15px;
     padding-bottom:  25px;
@@ -141,7 +137,6 @@
     border-bottom: 1px solid #bfbfbf;
     padding-bottom: 25px;
 }
-
 #categories-2 {
     padding-left: 30px;
     padding-bottom: 25px;
@@ -166,8 +161,7 @@
 /*Single blog page*/
 .individual-post {
     margin:  auto;
-    max-width: 700px;
-    
+    max-width: 700px;   
 }
 .main-content {
     max-width: 960px;
@@ -177,7 +171,6 @@
 .entry-wrap {
     width:  600px;
 }
-
 .left {
      padding-left:5%;
 } 
@@ -211,7 +204,6 @@ aside.case-study-sidebar {
     float: right;
     margin: 20px 0 10px 0;  
     max-width: 69%; 
-    
 }
 h2 {
     font-weight:600; 
@@ -237,7 +229,7 @@ h4 {
     list-style: none;
     overflow: hidden;
     margin: 0;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 .individual-featured-work {
     display: inline-block;
@@ -251,11 +243,36 @@ h4 {
     text-align:  center;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .individual-featured-work h3 {
     text-align:  center;
     font-weight: 600;
+    margin-top:  20px;
+    font-size: large;
+}
+/*our Services Homepage*/
+.homepage-our-services {
+    list-style:  none;
+    overflow:  hidden;
+    margin:  0;
+    padding-bottom: 10%;
+}
+.services-title {
+    text-align:  center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+li.indiv-service {
+    display:  inline-block;
+    max-width: 22%;
+    padding:  12px;
+    
+}
+.indiv-service h3 {
+    text-align:  center;
+     font-weight: 600;
     margin-top:  20px;
     font-size: large;
 }

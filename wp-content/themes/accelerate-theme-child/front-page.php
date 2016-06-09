@@ -48,9 +48,51 @@ get_header(); ?>
 		  <?php endwhile; // end of the loop. ?>
 		  <?php wp_reset_query(); // resets the altered query back to the original ?>
         </ul>
-
     </div>
+</section>
 
+<section class="our-services">
+    <div class="site-content">
+    <h4 class="services-title">Our Services</h4>
+        <ul class="homepage-our-services">
+            
+            <li class="indiv-service">
+                <figure>
+                    <img width="220" height="220" src="http://localhost:63961/wp-content/uploads/2016/04/content_strategy_icon.jpg" class="homepage-service-icon" alt="bullseye"
+                </figure>
+                <h3>
+                  <a href="http://localhost:63961/about/">Content Strategy</a>
+                </h3>
+            </li>
+        
+             <li class="indiv-service">
+                <figure>
+                    <img width="220" height="220" src="http://localhost:63961/wp-content/uploads/2016/04/influencer_mapping_icon.jpg" class="homepage-service-icon" alt="atom"
+                </figure>
+                <h3>
+                  <a href="http://localhost:63961/about/">Influencer Mapping</a>
+            </li>
+          
+             <li class="indiv-service">
+                <figure>
+                    <img width="220" height="220" src="http://localhost:63961/wp-content/uploads/2016/04/social_media_strategy_icon.jpg" class="homepage-service-icon" alt="thumb-up"
+                </figure>
+                <h3>
+                  <a href="http://localhost:63961/about/">Social Media Strategy</a>
+                </h3>
+            </li>
+        
+             <li class="indiv-service">
+                <figure>
+                    <img width="220" height="220" src="http://localhost:63961/wp-content/uploads/2016/04/design_and_development_icon.jpg" class="homepage-service-icon" alt="magic-wand"
+                </figure>
+                <h3>
+                  <a href="http://localhost:63961/about/">Design & Development</a>
+                </h3>
+            </li>
+
+        </ul>
+    </div>
 </section>
 
 <section class="recent-posts">
