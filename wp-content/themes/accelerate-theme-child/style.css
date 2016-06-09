@@ -286,10 +286,8 @@ img.attachment-full {
     float: left;
     clear: both;
     max-width: 35%; 
-    padding-top: 3%;
-    
+    padding-top: 3%;  
 }
-
 /*Contact Us Page*/
 .narrow-content {
     width: 75%;
@@ -299,11 +297,9 @@ img.attachment-full {
     float:  left;
     width:  48%;  
 }
-
 #ninja_forms_field_2_div_wrap {
    float:  right;   
-   width:  48%;
-   
+   width:  48%;   
 }
 #ninja_forms_field_4 {
     float: right;
@@ -317,25 +313,19 @@ img.attachment-full {
     font-size: 14px; 
     font-weight: 700;
 }
-
 /*social Menu Icons*/
 .social-media-menu {
-    list-style: none;
-   
+    list-style: none; 
 }
-
 #menu-social-media-nav li {
     display: inline;
     padding:  3px;
 }
-
 /*Footer Menu*/
 .footer-name {
     color: #45ac9d;
 }
-
 /*About Page*/
-
 .about-hero {
     color: #ffffff;
     padding-top:  50px;
@@ -409,14 +399,12 @@ div.button {
     width: 200px;
     margin-right: 50px;
     margin-top: 20px;
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px; 
 }
 a.button {
    padding: 0px 0px;
    background-color: #45ac9d;
 }
-
 /*404 page*/
 .content-area {
     margin-bottom: 
@@ -430,8 +418,7 @@ a.button {
     
     clear: both;
 }
-.four-oh-four img {
-    
+.four-oh-four img {   
 }
 .oh-snap {
     float: left;
@@ -454,5 +441,49 @@ a.button {
    font-weight: 600;
    font-size: 20px;
 }
-
+/* Next / prev */
+#navigation {
+	background: #fff;
+	border: solid #bfbfbf;
+	border-width: 1px 0;
+	clear: both;
+	font: 0.8em/4.08 'OpenSans', Arial, sans-serif;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 40px;
+	text-align: center;
+}
+#navigation .left {
+	float: left;
+}
+#navigation .right {
+	float: right;
+}
+#navigation .left a,
+#navigation .right a {
+	color: #45ac9d;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#navigation .left a span,
+#navigation .right a span {
+	color: #150300;
+}
+#navigation .left a span {
+	padding-left: 8px;
+}
+#navigation .right a span {
+	padding-right: 8px;
+}
+#navigation .left a:hover,
+#navigation .right a:hover {
+	text-decoration: none;
+}
+#navigation .left a:hover span,
+#navigation .right a:hover span {
+	text-decoration: underline;
+}
+/* End next / prev */
 

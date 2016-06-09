@@ -48,11 +48,17 @@ get_header(); ?>
 			<?php endwhile; endif; ?>
 
 			</div>
-			
+		</div>	
 			<?php get_sidebar(); ?>
-		</div>
-				<div class="clearfix"></div>
-
+		
+			<?php if ( have_posts() ): ?>
+	<div id="navigation" class="container">
+        <div class="left"><?php next_posts_link('&larr; <span>Older Posts</span>'); ?></div>
+        <div class="right"><?php previous_posts_link('<span>Newer Posts</span> &rarr;'); ?></div>
+    </div>
+<?php endif; ?>	
+        
+        <div class="clearfix"></div>
 	</section>
 	<!-- END blog page -->
 <?php get_footer();
