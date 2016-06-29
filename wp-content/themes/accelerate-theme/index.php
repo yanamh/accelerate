@@ -39,8 +39,8 @@ get_header(); ?>
 						<footer class="entry-footer">
 							<div class="entry-meta">
 								<span class="entry-terms author">Written by <a href=""><?php the_author(); ?></a></span>
-								<span class="entry-terms category">Posted in <?php the_category(', '); ?><</span>
-								<span class="entry-terms commets"><?php comments_number( 'No comments yet!', '1 comment', '% comments' ); ?></span>
+								<span class="entry-terms category">Posted in <?php the_category(', '); ?></span>
+								<span class="entry-terms comments"><?php comments_number( 'No comments yet!', '1 comment', '% comments' ); ?></span>
 							</div>
 						</footer>
 					</div>
@@ -58,7 +58,6 @@ get_header(); ?>
     </div>
 <?php endif; ?>	
         
-        <div class="clearfix"></div>
 	</section>
 	<!-- END blog page -->
 <?php get_footer();

@@ -36,14 +36,14 @@ get_header(); ?>
 							<div class="entry-meta">
 								<span class="entry-terms author">Written by <?php the_author_posts_link(); ?></span>
 								<span class="entry-terms category">Posted in <?php the_category(', '); ?></span>
-								<span class="entry-terms commets"><?php comments_number( 'No comments yet!', '1 comment', '% comments' ); ?></span>
+								<span class="entry-terms comments"><?php comments_number('No comments yet!', '1 comment', '% comments'); ?></span>
 							</div>
 						</footer>
 					</div>
 				</article>
 
 				<div class="comments-area">
-					<h3 class="comments-title">no comments</h2>
+					<h3 class="comments-title">Comments</h3>
 					<div class="comment-respond">
 						<h3 class="comment-reply-title">Leave a comment</h3>
 						<form action="" method="post" id="commentform" class="comment-form default-form">
@@ -65,10 +65,8 @@ get_header(); ?>
 				</div>
 
 			</div>
-
+        </div>
 <?php get_sidebar(); ?>
-
-		</div>
 	</section>
 	<!-- END blog page -->
 	
